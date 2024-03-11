@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+
+ body{
+        background-image: url(/image/image.png);
+        background-size: cover;
+        text-align: center;
+    }
+    div{
+        margin-top: 239px;
+        background:transparent;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-left: 320px;
+        margin-right: 300px;
+        padding: 10px;
+    }
+    a{
+        text-decoration: none;
+    }
+    span{
+        color: rgb(155, 57, 57);
+    }

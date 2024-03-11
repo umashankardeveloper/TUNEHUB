@@ -1,0 +1,34 @@
+@charset "ISO-8859-1";
+ body{
+            background-image: url(/image/image.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+       div{
+        margin-top: 240px;
+        background: transparent;
+        width: 300px;
+        margin-left: 467px;
+        padding: 25px;
+       }
+       .log{
+        background-color: lightpink;
+        border-radius: 10px;
+        color: white;
+        text-decoration: none;
+        width: 100px;
+        display: block;
+        padding: 10px;
+        margin-left: 70px;
+        margin-bottom: 10px;
+ 
+     }
+     .reg{
+        text-decoration: none;
+        top:10px;
+        margin-left: 33px;
+     }
+     span{
+        color: white;
+     }
+    

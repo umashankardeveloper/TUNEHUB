@@ -1,0 +1,27 @@
+@charset "ISO-8859-1";
+
+body{
+    background-image: url(/image/image.png);
+    background-size: cover;
+    text-align: center;
+}
+div{
+    display: block;
+     margin-top: 250px;
+     background: transparent;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     border-radius: 10px;
+     margin-left: 400px;
+     margin-right: 390px;
+     padding: 20px;  
+}
+a{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    background-color: lightcoral;
+    padding: 10px;
+    
+}
+
+

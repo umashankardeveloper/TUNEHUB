@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>TUNEHUB</title>
+<link rel="stylesheet" th:href="@{/css/createplaylist.css}">
+</head>
+<body>
+ <div class="navbar">
+        <ul>
+            <li><a href="admin">HOME</a></li>
+        </ul>
+    </div>
+<form action="addplaylist">
+<label>PlayList Name:</label>
+<input type="text" name="name" required="required"> <br>
+<div th:each="songlist :${songlist} ">
+<input type="checkbox" th:name="songlist" th:value="${songlist.id}">
+<label th:text="${songlist.name}"></label>
+</div>
+<input type="submit" value="ADD PLAYLIST">
+</form>
+</body>
+</html>

@@ -1,0 +1,64 @@
+@charset "ISO-8859-1";
+
+body {
+	background-image: url(/image/second.jpg);
+	background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+	color: white;
+}
+
+table {
+
+	color: white;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 00.1px solid rgb(201, 192, 192);
+}
+
+thead {
+	color: white;
+    background: transparent;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    text-align: center;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+audio {
+    width: 100%;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

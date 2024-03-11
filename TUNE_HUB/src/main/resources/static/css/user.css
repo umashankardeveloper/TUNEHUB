@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+   body{
+        background-image: url(/image/Second.jpg);
+        background-size: cover;
+        justify-content: center;
+       
+    }
+    .one{
+     background: transparent;
+    text-align: center;
+    margin-left: 280px;
+    margin-top: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 900px;
+    padding: 20px;
+    
+    }
+    
+
+    #two{
+        margin-right: 280px;
+        text-decoration: none;
+        color: white;
+        font-size: 35px;
+    } 
+    #three{
+        text-decoration: none;
+        color: white;
+        font-size: 35px;
+        margin-left: 10px;
+    }

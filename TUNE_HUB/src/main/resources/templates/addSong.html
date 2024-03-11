@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>TUNEHUB</title>
+<link rel="stylesheet" th:href="@{/css/addSong.css}">
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="admin">HOME</a></li>
+        </ul>
+    </div>
+    <a href="#" class="logo">TuneHub</a>
+
+<div class="container"> 
+    <div class="box"> 
+        <form action="map-addSong" method="post">
+            <div class="input-group"> 
+                <label>Song Name</label>
+                <input type="text" name="name" required>
+            </div>
+            <div class="input-group">
+            <label>Song Artist</label> 
+                <input type="text" name="artist" required>
+            </div>
+            <div class="input-group"> 
+            <label>Song Genre</label>
+                <input type="text" name="genre" required>
+            </div>
+            <div class="input-group">  
+                
+                <label>Song Link</label>
+                <input type="text" name="link" required>
+            </div>
+            <div class="input-group buttons"> 
+
+                <input type="reset" value="RESET">
+                </div>
+                <div class="input-group buttons"> 
+                <input type="submit" value="Add Song">
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
+

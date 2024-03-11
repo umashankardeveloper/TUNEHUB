@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+body {
+    background-image: url(/image/image.png);
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+form {
+  
+    max-width: 400px;
+    margin: 200px;
+    padding: 20px;
+    background:transparent;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-style: bold;
+    font-size: 24px;
+    color: rgb(114, 228, 224);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 75px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(134, 255, 255);
+}
